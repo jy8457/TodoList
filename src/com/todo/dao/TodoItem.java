@@ -64,9 +64,9 @@ public class TodoItem {
     }
     @Override
     public String toString() {
-    	return category+ "##"+ title + "##" + desc + "##"+ due_date + "##" + current_date + "\n"; 
+    	return "["+category+"] "+ title+ " - "+ desc + " "+ due_date+" - " +current_date +"\n"; 
     }
-
+//System.out.println(+list.indexOf(item)+1+"."+ "["+item.getCategory()+"] "+ item.getTitle()+ " - "+ item.getDesc() + " "+ item.getDue_date()+" - " +item.getCurrent_date());
 	
     
     

@@ -65,10 +65,10 @@ public class TodoUtil {
 					}
 				}
 				if(mark==0) {
-					System.out.println("그런 항목은 없습니다!");
+					System.out.println("그런 항목은 없습니다!");//get count 활용하기
 					return;
 				}
-		for (TodoItem item : l.getList()) {
+		for (TodoItem item : l.getList()) {//System.out.println(l.getitem(num-1).toString());
 			if (num-1==l.indexOf(item)) {
 				
 				System.out.println(+l.indexOf(item)+1+"."+ "["+item.getCategory()+"] "+ item.getTitle()+ " - "+ item.getDesc() + " "+ item.getDue_date()+" - " +item.getCurrent_date());
